@@ -3,7 +3,8 @@ const mongoose = require("mongoose");
 const connectToDatabase = async () => {
   try {
     await mongoose.connect(
-      process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/socialnetwork",
+      process.env.MONGODB_URI ||
+        "mongodb://127.0.0.1:27017/backend-SocialNetworkdb",
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
