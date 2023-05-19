@@ -7,7 +7,7 @@ const {
   deleteExistingUser,
   addFriend,
   removeFriend,
-} = require("../../controllers/user_controller");
+} = require("../../controllers/user_controllers");
 
 const router = express.Router();
 
