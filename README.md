@@ -33,7 +33,7 @@ This app is suppose to be used at the same time with Insomnia so we can add, upd
 - Node.js installed on the system
 - express to version 4.18.2
 - mongoose to version 7.1.1
-- mysql2 package version 3.2.1 or higher installed
+- moment to version 2.29.4 for the dates and so on
 
 ## Installation
 
@@ -41,11 +41,11 @@ To install this project please proceed to my [GitHub Repository](https://github.
 
 you should be able to see this,
 
-![Github Repository](./Develop/img/github%20repo.png)
+![Github Repository](./img/Githubrepo.png)
 
 Click on code as shown in the image
 
-![Click on Code](./Develop/img/ssh%20key.png)
+![Click on Code](./img/SSH-key.png)
 
 Copy the SSH key or the HTTPS key and open.
 
@@ -56,7 +56,7 @@ Copy the SSH key or the HTTPS key and open.
 either one of this will work. please proceed to the terminal an put in your Terminal,
 
 ```
-git clone git@github.com:EspinosaSalvador/E-commerce-Back-End-by-Salvador.git
+git clone git@github.com:EspinosaSalvador/Social-Network-API-by-Salvador.git
 ```
 
 and now you have a copy of the code.
@@ -85,83 +85,66 @@ git checkout ＜branchname＞
 
 If you want to show us your code and merge please open a pull request on
 
-[Github](https://github.com/EspinosaSalvador/E-commerce-Back-End-by-Salvador/pulls).
+[Github](https://github.com/EspinosaSalvador/Social-Network-API-by-Salvador/pulls).
 
-![Pull request](./Develop/img/pull%20request.png)
+![Pull request](./img/Pullrequest.png)
 
 ## What you should be able to see
 
-To start this app please use npm i to install the dependencies that we have on the package.json after that please enter to your msql password and user so you can download the database.
+To start this app please use
 
 ```
-mysql -u root -p
+npm i
 ```
 
-that I have to do that please insert this into your terminal
-
-```
-SOURCE db/schema.sql
-```
-
-after the db is installed please proceed to exit mysql
-
-just type in the terminal the following.
-
-```
-exit
-```
-
-after you have done this please also use the following command to your terminal
-
-```
-node seeds/index.js
-```
-
-after all of these is done please proceed to use the script that I have on package.json
-
-which is
+to install the dependencies that we have on the package.json after that please use
 
 ```
 npm start
 ```
 
-![app running on terminal](./Develop/img/terminal%20running%20server.png)
+this will start the server and now you will be able to use insomnia to add/remove/update/connect your data
+
+![Server running on Insomnia](./img/Insomnia.png)
 
 lets open our insomnia app in the computer and lets start playing with the js.
 
-for this expample we will be going with all the categories that we can. but the other one will be used and or explain more indepth in the video.
+for this expample we will be going with adding users and friends. but if you feel you need more explanation please go to my Video which is above for a more complete explanation, on how to use this app.
 
-![view all categories img.](./Develop/img/all%20categories.png)
+please input in the url what you see in the img, below.
 
-the image above show us what we need to input inside the url to see our work in this example we are using the get to see all our categories from the db/e-commerce
+![view all users img.](./img//get%20users.png)
+
+the image above show us what we need to input inside the url to see our work in this example we are using the get to see all users with get.
 
 lets proceed by seeing the url that we need to input to see only one category
 
-![one category](./Develop/img/one%20category.png)
+![post one user](./img/postuser.png)
 
-as you can see above is pretty similar the only difference is that it has a number with the id at the end.
+as you can see above is pretty similar the difference is that we are on the section to post and also, we need to add
 
-![update category](./Develop/img/update%20category%20by%20id.png)
+- username
+- email
 
-when we click on view all employees you should be able to see this.
+![update user](./img/updateuser.png)
 
-you should see the following rows in the table:
+we need to repeat what we have on post in case we want to upadte both.
 
-in this example we only want to update id 3 and we want to change the name of the category_name to :"eat_my_shorts"
+but this time we need to add the id of the user. in the url to make the application know which user we are going to upadate.
 
 to see if this works please go back to your get section and see if this is updated.
 
-![delete category](./Develop/img/delete%20category.png)
+![delete user](./img/deleteuser.png)
 
-to delete the category we only need the id as in previous example as soon as you send this it will be deleted from the db.
+to delete the user we need the id after user in the url.
 
-and repeat the same process with tag, product and category.
+and repeat the same process with friends, thoughts and reactions.
 
 ## Troubleshooting
 
-The Employee-Tracker is in version 1.0, please let me know if there are anybug in the webpage by issuing it in [Github](https://github.com/EspinosaSalvador/E-commerce-Back-End-by-Salvador/issues)
+The Employee-Tracker is in version 1.0, please let me know if there are anybug in the webpage by issuing it in [Github](https://github.com/EspinosaSalvador/Social-Network-API-by-Salvador/issues)
 
-![Issues-webpage](./Develop/img/issues.png)
+![Issues-webpage](./img/issues.png)
 
 ## Next Phase Development
 
