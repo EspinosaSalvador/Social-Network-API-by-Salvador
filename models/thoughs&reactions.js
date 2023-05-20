@@ -19,15 +19,15 @@ const reactionSchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      get: function (timestamp) {
-        return moment(timestamp).format("MMMM Do, YYYY [at] h:mm a");
+      get: function (time) {
+        return moment(time).format();
       },
     },
     updatedAt: {
       type: Date,
       default: Date.now,
-      get: function (timestamp) {
-        return moment(timestamp).format("MMMM Do, YYYY [at] h:mm a");
+      get: function (time) {
+        return moment(time).format();
       },
     },
   },
@@ -49,15 +49,15 @@ const thoughtSchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      get: function (timestamp) {
-        return moment(timestamp).format("MMMM Do, YYYY [at] h:mm a");
+      get: function (time) {
+        return moment(time).format();
       },
     },
     updatedAt: {
       type: Date,
       default: Date.now,
-      get: function (timestamp) {
-        return moment(timestamp).format("MMMM Do, YYYY [at] h:mm a");
+      get: function (time) {
+        return moment(time).format();
       },
     },
     username: {

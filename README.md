@@ -140,6 +140,10 @@ to delete the user we need the id after user in the url.
 
 and repeat the same process with friends, thoughts and reactions.
 
+if you want to see the information stored you can see it also in MongoDb in compass.
+
+![Mongodb](./img/MongoDb-Database.png)
+
 ## Troubleshooting
 
 The Employee-Tracker is in version 1.0, please let me know if there are anybug in the webpage by issuing it in [Github](https://github.com/EspinosaSalvador/Social-Network-API-by-Salvador/issues)
