@@ -67,7 +67,7 @@ you can work/play/use the app
 
 if you want to watch my walkthorough please click on the video. we are doing the same steps that were previously stated.
 
-[![Watch the video](./Develop/img/video.png)](https://drive.google.com/file/d/1b7yCGlJOYM1VYu-3L8sZlcJY9TpGsmFE/view)
+[![Watch the video](./img/video.png)](https://drive.google.com/file/d/1ayE8DaCkG62PeSyhDEiGAk0Ts69vM8OG/view)
 
 ## Configuration
 
